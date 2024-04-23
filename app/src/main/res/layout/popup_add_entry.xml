@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/backgroundpcp">
+
+    <Spinner
+        android:id="@+id/spinner_player_name"
+        android:layout_width="match_parent"
+        android:textSize="160sp"
+        android:padding="10dp"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinner_pub"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Score"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/clear_data_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return To Scoreboard"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
+
+

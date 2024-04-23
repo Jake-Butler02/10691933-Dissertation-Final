@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dissertation</string>
+    <string-array name="pub_names_array">
+        <item>Pub 1</item>
+        <item>Pub 2</item>
+    </string-array>
+</resources>
